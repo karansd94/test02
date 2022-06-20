@@ -1,0 +1,106 @@
+:global {
+  .price-container.ng-star-inserted {
+    display: none;
+  }
+
+  .contract-length .test-001-fee-component {
+    display: none;
+  }
+
+  .test-001-fee-component {
+    text-align: center;
+  }
+
+  .test-001-fee-p {
+    display: inline;
+  }
+
+  .test-001-fee-button {
+    border: unset;
+    background-color: unset;
+    color: rgb(95, 40, 120);
+    text-decoration: underline;
+    padding: unset;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .test-001-backdrop {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: none;
+    z-index: 107159;
+  }
+
+  .test-001-lightbox {
+    padding: 20px;
+    height: fit-content;
+    width: 80%;
+    background: white;
+    position: fixed;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    display: none;
+    z-index: 107160;
+  }
+
+  .test-001-show {
+    display: block;
+  }
+
+  .test-001-lightbox-top {
+    border-bottom: lightgray 1px solid;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+  }
+
+  .test-001-x {
+    border: unset;
+    background: unset;
+    color: gray;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .test-001-lightbox-bottom {
+    padding-top: 20px;
+  }
+
+  .test-001-text-container {
+    margin-bottom: 20px;
+  }
+
+  .test-001-popup-copy {
+    display: inline;
+  }
+
+  .test-001-ok-button {
+    border: unset;
+    background-color: rgb(95, 40, 120);
+    color: white;
+    width: 80%;
+    line-height: 2.75rem;
+    height: 3rem;
+    cursor: pointer;
+    display: flex;
+    flex: 0 1 18rem;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    margin: 0 auto;
+    border-radius: 6.25rem;
+  }
+
+  @media screen and (min-width: 768px) {
+    .test-001-lightbox {
+      width: 40%;
+    }
+  }
+}
